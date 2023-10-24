@@ -27,7 +27,7 @@ int main()
 		x = 4 * rand() / RAND_MAX - 2;
 		y = 4 * rand() / RAND_MAX - 2;
 		if (((y > 0) && (y <= x) && (y <= (-pow(x, 2)) + 2)) ||
-			((y <= (-x)) && (y <= 0) && (y <= (-pow(x, 2)) + 2)))
+			((y <= (x)) && (y <= 0) && (y <= (-pow(x, 2)) + 2)))
 			cout << setw(8) << setprecision(4) << x << "  "
 			<< setw(8) << setprecision(4) << y << "  " << "yes" << endl;
 		else
