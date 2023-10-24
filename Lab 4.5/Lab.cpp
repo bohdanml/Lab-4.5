@@ -14,7 +14,7 @@ int main()
 	cout << "y = "; cin >> y;
 
 	if (((y > 0) && (y <= x) && (y <= (-pow(x, 2)) + 2)) ||
-		((y <= (-x)) && (y <= 0) && (y <= (-pow(x, 2)) + 2)))
+		((y <= (x)) && (y <= 0) && (y <= (-pow(x, 2)) + 2)))
 		cout << "yes" << endl;
 	else
 		cout << "no" << endl;
